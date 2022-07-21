@@ -1,0 +1,33 @@
+html {
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+
+body {
+    background-image: url("../../images/backgrounds/1567799.jpg");
+}
+
+h1 {
+    background-color: rgba(0, 139, 139, .75);
+    padding: 20px;
+    margin: .3%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 280%;
+    text-transform: uppercase;
+    min-width: 420px;
+    border-radius: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+a.contact:link{
+    text-decoration: none;
+}
+
+a.contact:hover{
+    text-decoration: underline;
+}
