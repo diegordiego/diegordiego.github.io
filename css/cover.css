@@ -111,3 +111,15 @@ footer {
 .pe-6 {
   padding-right: 5rem !important;
 }
+
+.w-125 {
+  width: 125%;
+}
+
+.link-light:link{
+  text-decoration: none;
+}
+
+.link-light:hover{
+  text-decoration: underline;
+}
