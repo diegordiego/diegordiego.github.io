@@ -80,11 +80,18 @@ footer {
   margin-bottom: 10rem;
 }
 
+.m-section {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
 @media (min-width: 992px) {
   .m-title-lg {
     margin-top: 15rem;
     margin-bottom: 15rem;
   }
+
+  
 }
 
 .fs-title {
