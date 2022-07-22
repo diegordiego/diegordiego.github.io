@@ -8600,10 +8600,6 @@ fieldset:disabled .btn {
   margin: 3rem !important;
 }
 
-.m-title {
-  margin: 15rem !important;
-}
-
 .m-auto {
   margin: auto !important;
 }
@@ -8922,10 +8918,6 @@ fieldset:disabled .btn {
   padding-right: 3rem !important;
 }
 
-.pe-6 {
-  padding-right: 5rem !important;
-}
-
 .pb-0 {
   padding-bottom: 0 !important;
 }
@@ -8972,10 +8964,6 @@ fieldset:disabled .btn {
 
 .ps-5 {
   padding-left: 3rem !important;
-}
-
-.ps-6 {
-  padding-left: 5rem !important;
 }
 
 .gap-0 {
@@ -9028,10 +9016,6 @@ fieldset:disabled .btn {
 
 .fs-6 {
   font-size: 1rem !important;
-}
-
-.fs-title {
-  font-size: calc(5rem + 0.9vw) !important;
 }
 
 .fst-italic {
