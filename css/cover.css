@@ -72,7 +72,7 @@ main {
   margin-bottom: 80px;
 }
 
-.fs-1{
+.fs-1 {
   font-size: 200%;
 }
 
@@ -88,12 +88,12 @@ main {
   /* border: 1px solid white; */
 }
 
- #introduction{
+#introduction {
   position: static;
   height: 50%;
   max-height: 50%;
   margin: 1%;
-} 
+}
 
 .thirds h3 {
   border-bottom: 1px solid white;
@@ -109,11 +109,11 @@ main {
   margin-bottom: 1%;
 }
 
- #learnMoreBtns{
+#learnMoreBtns {
   position: static;
   height: 17%;
   margin: 1%;
-} 
+}
 
 #learnMoreBtns .thirds {
   margin-top: 2%;
@@ -140,6 +140,34 @@ main {
 * Footer
 */
 
- footer{
+footer {
   position: static;
-} 
+}
+
+/* 
+* Others 
+*/
+
+.m-title {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+@media (min-width: 992px) {
+  .m-title-lg {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+  }
+}
+
+.fs-title {
+  font-size: calc(5rem + 0.9vw) !important;
+}
+
+.ps-6 {
+  padding-left: 5rem !important;
+}
+
+.pe-6 {
+  padding-right: 5rem !important;
+}
