@@ -85,8 +85,8 @@ footer {
 }
 
 .m-section {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-top: auto;
+    margin-bottom: 5rem;
 }
 
 @media (min-width: 992px) {
