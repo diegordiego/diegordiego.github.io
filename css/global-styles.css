@@ -1,0 +1,22 @@
+:root {
+  --light-green: #B2D1C9;
+  --green: #5C9D8D;
+  --bright-green: #3DF2C5;
+  --light-gray: #56736C;
+  --dark-gray: #404846;
+  --dark-green: #25332F;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+html {
+  background-color: rgba(53, 53, 53, 0.884);
+  font-family: "Roboto", "sans-serif";
+}
+
+body {
+  margin: 0;
+}

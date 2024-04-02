@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  justify-content: right;
+  margin: 1rem;
+  font-size: 1.7rem;
+}
+
+a {
+  margin: 0 .75rem;
+  text-decoration: none;
+  color: var(--green);
+}
+
+a:hover {
+  border-bottom: solid var(--light-green) 3px;
+  animation: fadeIn 1s;
+}
+
+.nav-selected {
+  border-bottom: var(--green) solid 3px;
+}
