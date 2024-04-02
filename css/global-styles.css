@@ -7,13 +7,8 @@
   --dark-green: #25332F;
 }
 
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
 html {
-  background-color: rgba(53, 53, 53, 0.884);
+  /* background-color: rgba(53, 53, 53, 0.884); */
   font-family: "Roboto", "sans-serif";
 }
 

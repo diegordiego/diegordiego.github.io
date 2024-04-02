@@ -24,7 +24,7 @@ class NavMenu extends HTMLElement {
     homeLink.textContent = "Home";
     homeLink.setAttribute("href", "#home");
     homeLink.setAttribute("id", "home-nav");
-    // homeLink.classList.add("nav-selected");
+    homeLink.classList.add("nav-selected");
 
     const aboutLink = document.createElement("a");
     aboutLink.textContent = "About";
@@ -54,28 +54,21 @@ class NavMenu extends HTMLElement {
     );
   }
 
+  //Looks at the contents in the url after the #
+  //Based on that adds a 'selected' class to that item
   activeMenuItem(pathName) {
-    console.log(pathName);
-    this.shadowRoot.querySelector("#home-nav").classList.toggle(".nav-selected");
-    // console.log(this.shadowRoot.querySelectorAll(".nav-selected"));
+    //It first checks every element to remove the previous "selected" class
+    let navItems = (this.shadowRoot.querySelector(".navbar").children)
+    let navItemsArray = Array.from(navItems)
+  
+    navItemsArray.forEach(navItem => {
+      navItem.classList.remove("nav-selected")
+    });
 
-    switch (pathName) {
-      case "":
-      case "home":
-        this.shadowRoot
-          .querySelector("#home-nav")
-          .classList.add("nav-selected");
-        break;
-
-      case "about":
-        this.shadowRoot
-          .querySelector("#about-nav")
-          .classList.add("nav-selected");
-        break;
-
-      default:
-        break;
-    }
+    //After removing the previous class, looks for the clicked item and adds 
+    //The "selected" class to it
+    let query = "#" + pathName + "-nav";
+    this.shadowRoot.querySelector(query).classList.toggle("nav-selected");
   }
 }
 

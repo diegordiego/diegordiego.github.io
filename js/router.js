@@ -21,11 +21,11 @@ function route() {
     case "about":
       renderComponent(new AboutComponent());
       break;
+    case "portfolio": // Add this case
+        renderComponent(new PortfolioComponent());
+        break;
     case "contact":
       renderComponent(new ContactComponent());
-      break;
-    case "portfolio": // Add this case
-      renderComponent(new PortfolioComponent());
       break;
     default:
     // Handle unknown routes
