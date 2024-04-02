@@ -24,7 +24,7 @@ class NavMenu extends HTMLElement {
     homeLink.textContent = "Home";
     homeLink.setAttribute("href", "#home");
     homeLink.setAttribute("id", "home-nav");
-    homeLink.classList.add("nav-selected");
+    // homeLink.classList.add("nav-selected");
 
     const aboutLink = document.createElement("a");
     aboutLink.textContent = "About";
@@ -49,13 +49,15 @@ class NavMenu extends HTMLElement {
 
     // Append container to the shadow DOM
     shadow.appendChild(container);
-    window.addEventListener("hashchange", currentPage => this.activeMenuItem(window.location.hash.substring(1)));
+    window.addEventListener("hashchange", (currentPage) =>
+      this.activeMenuItem(window.location.hash.substring(1))
+    );
   }
 
   activeMenuItem(pathName) {
     console.log(pathName);
-    this.shadowRoot.querySelector(".nav-selected").classList.remove(".nav-selected");
-    console.log(this.shadowRoot.querySelector(".nav-selected"))
+    this.shadowRoot.querySelector("#home-nav").classList.toggle(".nav-selected");
+    // console.log(this.shadowRoot.querySelectorAll(".nav-selected"));
 
     switch (pathName) {
       case "":
@@ -64,6 +66,7 @@ class NavMenu extends HTMLElement {
           .querySelector("#home-nav")
           .classList.add("nav-selected");
         break;
+
       case "about":
         this.shadowRoot
           .querySelector("#about-nav")
