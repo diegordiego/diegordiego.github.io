@@ -1,7 +1,13 @@
-// aboutComponent.js
+import "./about-components/aboutTitleComponent.js";
+import "./about-components/certsComponent.js";
+import "./about-components/educationComponent.js";
 export class AboutComponent extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = '<h2>About Page</h2><p>About Us...</p>';
+    this.innerHTML = `
+      <about-title-component></about-title-component>
+      <certs-component></certs-component>
+      <education-component></education-component>
+    `;
   }
 }
 

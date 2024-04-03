@@ -24,7 +24,7 @@ class NavMenu extends HTMLElement {
     homeLink.textContent = "Home";
     homeLink.setAttribute("href", "#home");
     homeLink.setAttribute("id", "home-nav");
-    homeLink.classList.add("nav-selected");
+    // homeLink.classList.add("nav-selected");
 
     const aboutLink = document.createElement("a");
     aboutLink.textContent = "About";
@@ -49,6 +49,12 @@ class NavMenu extends HTMLElement {
 
     // Append container to the shadow DOM
     shadow.appendChild(container);
+
+    window.addEventListener(
+      "load",
+      this.activeMenuItem(window.location.hash.substring(1))
+    );
+
     window.addEventListener("hashchange", (currentPage) =>
       this.activeMenuItem(window.location.hash.substring(1))
     );
@@ -58,17 +64,24 @@ class NavMenu extends HTMLElement {
   //Based on that adds a 'selected' class to that item
   activeMenuItem(pathName) {
     //It first checks every element to remove the previous "selected" class
-    let navItems = (this.shadowRoot.querySelector(".navbar").children)
-    let navItemsArray = Array.from(navItems)
-  
-    navItemsArray.forEach(navItem => {
-      navItem.classList.remove("nav-selected")
+    let navItems = this.shadowRoot.querySelector(".navbar").children;
+    let navItemsArray = Array.from(navItems);
+
+    navItemsArray.forEach((navItem) => {
+      navItem.classList.remove("nav-selected");
     });
 
-    //After removing the previous class, looks for the clicked item and adds 
-    //The "selected" class to it
-    let query = "#" + pathName + "-nav";
-    this.shadowRoot.querySelector(query).classList.toggle("nav-selected");
+    //After removing the previous class, looks for the clicked item and adds
+    //The "selected" class to it, if there is a path name
+    if (pathName == "") {
+      this.shadowRoot
+        .querySelector("#home-nav")
+        .classList.toggle("nav-selected");
+    } else {
+      let query = "#" + pathName + "-nav";
+
+      this.shadowRoot.querySelector(query).classList.toggle("nav-selected");
+    }
   }
 }
 

@@ -1,7 +1,11 @@
-// contactComponent.js
+import "./contact-components/infoComponent.js";
+
 export class ContactComponent extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = '<h2>Contact Page</h2><p>Contact Us...</p>';
+    this.innerHTML = `
+      <contact-title-component></contact-title-component>
+      <info-component></info-component>
+    `
   }
 }
 

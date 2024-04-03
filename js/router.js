@@ -1,8 +1,8 @@
 // router.js
-import { HomeComponent } from "/js/components/homeComponent.js";
-import { AboutComponent } from "/js/components/aboutComponent.js";
-import { PortfolioComponent } from "/js/components/portfolioComponent.js";
-import { ContactComponent } from "/js/components/contactComponent.js";
+import { HomeComponent } from "./components/homeComponent.js";
+import { AboutComponent } from "./components/aboutComponent.js";
+import { PortfolioComponent } from "./components/portfolioComponent.js";
+import { ContactComponent } from "./components/contactComponent.js";
 
 const content = document.getElementById("content");
 
@@ -22,8 +22,8 @@ function route() {
       renderComponent(new AboutComponent());
       break;
     case "portfolio": // Add this case
-        renderComponent(new PortfolioComponent());
-        break;
+      renderComponent(new PortfolioComponent());
+      break;
     case "contact":
       renderComponent(new ContactComponent());
       break;
