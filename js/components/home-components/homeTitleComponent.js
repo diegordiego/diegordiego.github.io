@@ -1,9 +1,12 @@
 export class HomeTitleComponent extends HTMLElement {
   connectedCallback() {
+
     this.innerHTML = `
-      <section class="">
+      <link rel="style" href="/css/home-styles.css"/>
+
+      <section class="title">
           <h1 class="">Diego Romero</h1>
-          <p class="">Audiovisual Engineer</p>
+          <h2 class="">Audiovisual Engineer</h2>
       </section>
     `;
   }

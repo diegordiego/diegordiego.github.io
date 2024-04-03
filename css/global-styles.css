@@ -1,17 +1,65 @@
 :root {
-  --light-green: #B2D1C9;
-  --green: #5C9D8D;
-  --bright-green: #3DF2C5;
-  --light-gray: #56736C;
-  --dark-gray: #404846;
-  --dark-green: #25332F;
+  --bg-light: #E1D4BB;
+  --light-green: #9AD0C2;
+  --light-blue: #2D9596;
+  --dark-blue: #265073;
+  --background-color: #212529 ;
+  --main-white: rgb(248, 249, 250)
+  --section-margin: 5rem;
 }
 
 html {
-  /* background-color: rgba(53, 53, 53, 0.884); */
+  /* background-color: var(--background-color); */
   font-family: "Roboto", "sans-serif";
 }
 
 body {
+  margin: 2rem 5rem;
+}
+
+h1, h2, h3, h4, h5 {
   margin: 0;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+section {
+  border-radius: 10px;
+}
+
+.title {
+  margin-top: 2rem;
+  background-color: var(--bg-light);
+  font-weight: 100;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  padding: 1rem 2rem;
+}
+
+h1 {
+  font-weight:normal;
+  font-size: 6rem;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 3rem;
+}
+
+h4 {
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+footer p{
+  display: flex;
+  text-align: center;
 }

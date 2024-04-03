@@ -4,7 +4,7 @@ class FooterComponent extends HTMLElement {
     const shadow = this.attachShadow({ mode: "open" });
 
     shadow.innerHTML = `
-      <footer class="">
+      <footer class="footer">
         <p>Website designed and built by 
           <a
               href="https://www.linkedin.com/in/diegordiego/"

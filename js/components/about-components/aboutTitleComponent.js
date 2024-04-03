@@ -1,7 +1,7 @@
 export class AboutTitleComponent extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <section class="">
+      <section class="title">
         <h1 class="">About Me</h1>
       </section>
     `;

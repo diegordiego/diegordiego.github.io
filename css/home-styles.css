@@ -1,0 +1,48 @@
+:root {
+  --section-margin: 5rem;
+}
+
+.introduction {
+  display: flex;
+  margin-top: var(--section-margin);
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.vertical-separator {
+  display: block;
+  border-left: solid black 2px;
+  height: auto;
+}
+
+.intro-item {
+  max-width: 20rem;
+  min-width: 16rem;
+  flex-grow: 1;
+}
+
+.featured {
+  margin-top: var(--section-margin);
+}
+
+.featured h4 {
+  font-weight: lighter;
+  font-size: 3rem;
+}
+
+.featured-title {
+  display: flex;
+  flex-flow: row;
+  align-items: baseline;
+}
+
+.featured-contents {
+  display: flex;
+  flex-flow: row;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.featured-contents p {
+  margin-top: 0;
+}

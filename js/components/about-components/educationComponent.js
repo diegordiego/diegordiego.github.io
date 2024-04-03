@@ -1,15 +1,15 @@
 export class EducationComponent extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <section class="container m-section">
-        <h3 class="display-3 text-start my-5" id="Education">
+      <section class="">
+        <h3 class="" id="education">
             Education</h3>
 
         <!-- Virginia Tech -->
-        <section class="row text-start fs-4 d-flex mb-5">
+        <section class="">
           <!-- Image Virginia Tech Logo-->
           <img src="images/logos/Vertical_VT_Full_Color_RGB-InnovationCampus_crop.png"
-              class="rounded img-fluid img-thumbnail" alt="">
+              class="" alt="">
 
           <!-- Text Virginia Tech Education-->
           <p>Actively working in 2022 towrads completing a Master
@@ -20,10 +20,10 @@ export class EducationComponent extends HTMLElement {
         </section>
 
         <!-- Tec de Monterrey -->
-        <section class="row text-start fs-4 d-flex mb">
+        <section class="">
           <!-- Image ITESM Logo-->
           <img src="images/logos/tec-de-monterrey-logo.png"
-              class="rounded img-fluid img-thumbnail" alt="">
+              class="" alt="">
 
           <!-- Text ITESM Education -->
           <p>Received BS. in Mechatronics Engineering from the
@@ -36,7 +36,7 @@ export class EducationComponent extends HTMLElement {
               The ITESM is ranked among the top 200 Universities
               in the world, according to the
               <a href="https://www.topuniversities.com/university-rankings/world-university-rankings/2023"
-                class="link-" target="_blank">
+                class="" target="_blank">
                   World University Rankings® 2023.</a>
           </p>
         </section>
