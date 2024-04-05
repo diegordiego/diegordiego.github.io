@@ -1,10 +1,15 @@
 :root {
-  --bg-light: #e0cd9b;
+  --bg-light: #e0cd9b; /*OG*/
+  --bg-light: #e6cd4e; /*MAYBE*/
   /* --blue: #3c787e; */
-  --blue: #03637e;
+  --blue: #03637e; /*OG*/
+  --blue: #565a66;
+  --light-blue: #accbe1; /*OG*/
   --light-blue: #accbe1;
-  --red: #ee6352;
+  --red: #ee6352; /*OG*/
+  --red: #918961;
   /* --bg-dark: #262626; */
+  --bg-dark: #444444; /*OG*/
   --bg-dark: #444444;
   --section-margin: 5rem;
 }
@@ -21,6 +26,15 @@ body {
   margin: 0 5rem;
 }
 
+.page-container {
+  position: relative;
+  min-height: 95vh;
+}
+
+#content {
+  padding-bottom: 5rem;
+}
+
 h1,
 h2,
 h3,
@@ -33,6 +47,10 @@ p {
   font-size: 1.25rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+a {
+  color: var(--light-blue);
 }
 
 section {
@@ -70,7 +88,13 @@ h4 {
   font-size: 2rem;
 }
 
-footer p {
-  display: flex;
-  text-align: center;
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer p {
+  font-size: 0.85rem;
 }

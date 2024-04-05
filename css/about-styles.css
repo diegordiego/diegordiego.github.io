@@ -40,6 +40,10 @@ ul {
   overflow-x: clip;
 }
 
+.scroll-container:hover {
+  cursor: grab;
+}
+
 .cards {
   position: absolute;
   top: 0;

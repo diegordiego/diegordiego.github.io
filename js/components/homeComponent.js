@@ -36,9 +36,4 @@ export class HomeComponent extends HTMLElement {
   }
 }
 
-function renderComponent(component) {
-  content.innerHTML = "";
-  content.appendChild(component);
-}
-
 customElements.define("home-component", HomeComponent);

@@ -4,20 +4,20 @@ nav {
   font-size: 1.7rem;
   background-color: var(--bg-light);
   border-radius: 10px;
-  padding: .5rem;
+  padding: 0.5rem 0;
 }
 
 nav a {
-  margin: 0 .75rem;
+  margin: -0.5rem 0;
+  margin-left: 0.5rem;
   text-decoration: none;
+  padding: 0.5rem;
   color: var(--blue);
+  color: whitesmoke;
 }
 
-nav a:hover {
-  border-bottom: solid var(--red) 3px;
-  animation: fadeIn 1s;
-}
-
+nav a:hover,
 .nav-selected {
-  border-bottom: var(--blue) solid 3px;
+  background-color: var(--red);
+  border-radius: 10px;
 }
