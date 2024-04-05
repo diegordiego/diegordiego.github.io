@@ -1,14 +1,18 @@
 export class nissanComponent extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <section class="">
-        <h3 class="">Nissan: Mexico HQ</h3>
+      <section class="portfolio-element">
+        <h3 class="">Nissan:&nbsp</h3>
+        <h4>Mexico HQ</h4>
 
+        <section class="portfolio-image-and-text">
+          <section class="portfolio-image">
+            <img src="images/Nissan-CrestronGUI.png" class="" alt="">
+          </section>
 
-        <section class="">
           <h4 class="">Responsibilities included:</h4>
 
-          <section class="">
+          <section class="portfolio-text">
             <ul class="">
               <li>
                   <p>Commissioning close to 30 Executive
@@ -30,10 +34,6 @@ export class nissanComponent extends HTMLElement {
               </li>
 
             </ul>
-          </section>
-
-          <section class="">
-            <img src="images/Nissan-CrestronGUI.png" class="" alt="">
           </section>
         </section>
       </section>

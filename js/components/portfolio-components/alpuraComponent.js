@@ -1,14 +1,18 @@
 export class alpuraComponent extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <section class="">
-        <h3 class="">Alpura: Council Room</h3>
+      <section class="portfolio-element">
+        <h3 class="">Alpura:&nbsp</h3>
+        <h4>Council Room</h4>
 
+        <section class="portfolio-image-and-text">
+          <section class="portfolio-image">
+            <img src="images/Alpura-CouncilRoom-SignalFlowDiagram.png" class="" alt="">
+          </section>
 
-        <section class="">
           <h4 class="">Responsibilities included:</h4>
 
-          <section class="">
+          <section class="portfolio-text">
             <ul class="">
               <li>
                   <p>Designing, engineering, creation of BOM,
@@ -29,10 +33,6 @@ export class alpuraComponent extends HTMLElement {
               </li>
 
             </ul>
-          </section>
-
-          <section class="">
-            <img src="images/Alpura-CouncilRoom-SignalFlowDiagram.png" class="" alt="">
           </section>
         </section>
       </section>

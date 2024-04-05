@@ -1,14 +1,18 @@
 export class broseComponent extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <section class="">
-        <h3 class="">Brose: Conference Room</h3>
+      <section class="portfolio-element">
+      <h3 class="">Brose:&nbsp</h3>
+      <h4>Conference Room</h4>
 
+        <section class="portfolio-image-and-text">
+          <section class="portfolio-image">
+            <img src="images/Brose-ConferenceRoom-1.jpeg" class="" alt="">
+          </section>
 
-        <section class="">
           <h4 class="">Responsibilities included:</h4>
 
-          <section class="">
+          <section class="portfolio-text">
             <ul class="">
               <li>
                   <p>Identifying all components of the existing system and provide documentation, since previous integrator didn't provide any.</p>
@@ -36,10 +40,6 @@ export class broseComponent extends HTMLElement {
                   feedback.</p>
               </li>
             </ul>
-          </section>
-
-          <section class="">
-            <img src="images/Brose-ConferenceRoom-1.jpeg" class="" alt="">
           </section>
         </section>
       </section>

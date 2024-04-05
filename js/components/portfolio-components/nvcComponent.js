@@ -1,14 +1,18 @@
 export class nvcComponent extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <section class="">
-        <h3 class="">Virginia Tech: Northern Virginia Center</h3>
+      <section class="portfolio-element">
+        <h3 class="">Virginia Tech:&nbsp</h3>
+        <h4>Northern Virginia Center</h4>
+
+        <section class="portfolio-image-and-text">
+          <section class="portfolio-image">
+            <img src="images/nvc_214_1.jpg" class="" alt="">
+          </section>
 
 
-        <section class="">
-          <h4 class="">Responsibilities included:</h4>
-
-          <section class="">
+          <section class="portfolio-text">
+            <h4 class="">Responsibilities included:</h4>
             <ul class="">
               <li>
                   <p>Commissioning the audio for 9 classrooms to allow for videoconferencing and sound reinforcement in the room, while avoiding any unwanted feedback, artifacts and echoes.</p>
@@ -26,10 +30,6 @@ export class nvcComponent extends HTMLElement {
                   <p>Assisting on any live events that require sound reinforcement and/or live streaming.</p>
               </li>
             </ul>
-          </section>
-
-          <section class="">
-            <img src="images/nvc_214_1.jpg" class="" alt="">
           </section>
         </section>
       </section>
