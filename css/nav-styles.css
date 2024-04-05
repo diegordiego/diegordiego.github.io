@@ -10,14 +10,14 @@ nav {
 nav a {
   margin: 0 .75rem;
   text-decoration: none;
-  color: var(--dark-blue);
+  color: var(--blue);
 }
 
 nav a:hover {
-  border-bottom: solid var(--light-blue) 3px;
+  border-bottom: solid var(--red) 3px;
   animation: fadeIn 1s;
 }
 
 .nav-selected {
-  border-bottom: var(--dark-blue) solid 3px;
+  border-bottom: var(--blue) solid 3px;
 }

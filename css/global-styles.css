@@ -1,15 +1,17 @@
 :root {
-  --bg-light: #E1D4BB;
-  --light-green: #9AD0C2;
-  --light-blue: #2D9596;
-  --dark-blue: #265073;
-  --background-color: #212529 ;
-  --main-white: rgb(248, 249, 250)
+  --bg-light: #e0cd9b;
+  /* --blue: #3c787e; */
+  --blue: #03637e;
+  --light-blue: #accbe1;
+  --red: #ee6352;
+  /* --bg-dark: #262626; */
+  --bg-dark: #444444;
   --section-margin: 5rem;
 }
 
 html {
-  /* background-color: var(--background-color); */
+  background-color: var(--bg-dark);
+  color: whitesmoke;
   font-family: "Roboto", "sans-serif";
   max-width: 1300px;
   margin: 2rem auto;
@@ -20,7 +22,11 @@ body {
   min-height: 100vh;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0;
 }
 
@@ -42,10 +48,11 @@ section {
   flex-flow: column;
   align-items: flex-end;
   padding: 1rem 2rem;
+  color: var(--blue);
 }
 
 h1 {
-  font-weight:normal;
+  font-weight: normal;
   font-size: 6rem;
 }
 
@@ -64,7 +71,7 @@ h4 {
   font-size: 2rem;
 }
 
-footer p{
+footer p {
   display: flex;
   text-align: center;
 }
