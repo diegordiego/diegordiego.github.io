@@ -1,3 +1,4 @@
+import "./contact-components/contactTitleComponent.js";
 import "./contact-components/infoComponent.js";
 
 export class ContactComponent extends HTMLElement {
