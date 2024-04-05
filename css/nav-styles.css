@@ -4,20 +4,28 @@ nav {
   font-size: 1.7rem;
   background-color: var(--bg-light);
   border-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
   padding: 0.5rem 0;
 }
 
 nav a {
-  margin: -0.5rem 0;
-  margin-left: 0.5rem;
+  margin: 0rem 0.5rem;
+  /* margin-left: 0.5rem; */
   text-decoration: none;
   padding: 0.5rem;
-  color: var(--blue);
-  color: whitesmoke;
+  color: var(--gray-blue);
+  border: solid transparent 2px;
 }
 
-nav a:hover,
-.nav-selected {
-  background-color: var(--red);
+nav a:hover {
+  background-color: var(--faded-gray);
   border-radius: 10px;
+}
+
+.nav-selected {
+  background-color: var(--faded-gray);
+  border-radius: 10px;
+  border: solid var(--gray-blue) 2px;
+
 }
