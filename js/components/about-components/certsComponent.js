@@ -1,14 +1,22 @@
 export class CertsComponent extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <section class="">
-        <h3 class="">Certifications</h3>
-        <section class="">
-          
-          <section class="">
-            <p>With the support of my employers and my drive to learn more, I have been able to acquire knowledge and tools to help me understand more and work better.</p>
+      <section class="certs">
+        <div class="certs-text">
+          <div class="certs-description">
+            <h3 class="">Certifications</h3>
+          </div>
 
+          <div class="certs-list">
             <h4>Some certifications worth noting:</h4>
+          </div>
+
+
+          <div class="certs-about">
+            <p>With the support of my employers and my drive to learn more, I have been able to acquire knowledge and tools to help me understand more and work better.</p>
+          </div>
+
+          <div>
             <ul class="">
               <li>AVIXA CTS</li>
               <li>Crestron Intermediate System Programming (P201)</li>
@@ -20,10 +28,11 @@ export class CertsComponent extends HTMLElement {
               <li>Bose ControlSpace System Design Lv2</li>
               <li>Shure Integrated Systems Certification Lv2</li>
             </ul>
-          </section>
+          </div>
+        </div>
 
           <!-- Cert images -->
-          <div class="container">
+          <div class="scroll-container">
             <div class="cards">
               <div class="card">
                 <img src="images/certifications/certified-technology-specialist.png" class="" alt="">
@@ -59,7 +68,8 @@ export class CertsComponent extends HTMLElement {
       </section>
     `;
 
-    const slider = this.querySelector(".container");
+    // TODO: Convert into module
+    const slider = this.querySelector(".scroll-container");
     const cards = this.querySelector(".cards");
 
     let isPressed = false;

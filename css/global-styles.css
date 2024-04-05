@@ -26,6 +26,8 @@ h1, h2, h3, h4, h5 {
 
 p {
   font-size: 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 section {
@@ -33,7 +35,7 @@ section {
 }
 
 .title {
-  margin-top: 2rem;
+  margin-top: 5rem;
   background-color: var(--bg-light);
   font-weight: 100;
   display: flex;
