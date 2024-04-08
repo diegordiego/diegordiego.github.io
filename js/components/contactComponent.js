@@ -7,7 +7,10 @@ export class ContactComponent extends HTMLElement {
       <contact-title-component></contact-title-component>
       <info-component></info-component>
     `
+
+    globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }
+  
 }
 
 customElements.define('contact-component', ContactComponent);

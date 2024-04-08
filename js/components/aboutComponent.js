@@ -23,6 +23,9 @@ export class AboutComponent extends HTMLElement {
     shadow.appendChild(certs);
 
     const education = document.createElement("education-component");
+
+    globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+
     shadow.appendChild(education);
   }
 }

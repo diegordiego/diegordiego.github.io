@@ -11,7 +11,6 @@ nav {
 
 nav a {
   margin: 0rem 0.5rem;
-  /* margin-left: 0.5rem; */
   text-decoration: none;
   padding: 0.5rem;
   color: var(--gray-blue);
@@ -27,5 +26,4 @@ nav a:hover {
   background-color: var(--faded-gray);
   border-radius: 10px;
   border: solid var(--gray-blue) 2px;
-
 }

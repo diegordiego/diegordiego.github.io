@@ -10,6 +10,7 @@
   --faded-gray: #91896188;
   /* --bg-dark: #262626; */
   --bg-dark: #444444;
+  --light-gray: rgb(182, 182, 182);
   --section-margin: 5rem;
 }
 
@@ -18,7 +19,7 @@ html {
   color: whitesmoke;
   font-family: "Roboto", "sans-serif";
   max-width: 1300px;
-  margin:  auto;
+  margin: auto;
 }
 
 body {
@@ -92,8 +93,23 @@ h4 {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+  color: var(--light-gray);
 }
 
 .footer p {
   font-size: 0.85rem;
+}
+
+.button {
+  background-color: var(--bg-light);
+  border-radius: 5px;
+  /* border: solid var(--bg-light) 2px; */
+  color: var(--gray-blue);
+  padding: 0.8rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color:  var(--light-blue);
 }
