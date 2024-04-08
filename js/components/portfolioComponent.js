@@ -13,7 +13,9 @@ export class PortfolioComponent extends HTMLElement {
       <alpura-component></alpura-component>
       <nissan-component></nissan-component>
     `;
+
+    globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }
 }
 
-customElements.define('portfolio-component', PortfolioComponent);
+customElements.define("portfolio-component", PortfolioComponent);

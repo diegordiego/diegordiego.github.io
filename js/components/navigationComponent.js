@@ -24,7 +24,6 @@ class NavMenu extends HTMLElement {
     homeLink.textContent = "Home";
     homeLink.setAttribute("href", "#home");
     homeLink.setAttribute("id", "home-nav");
-    // homeLink.classList.add("nav-selected");
 
     const aboutLink = document.createElement("a");
     aboutLink.textContent = "About";
