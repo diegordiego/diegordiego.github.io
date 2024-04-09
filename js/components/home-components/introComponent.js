@@ -16,7 +16,7 @@ export class IntroComponent extends HTMLElement {
 
 
         <div class="intro-text first-item">
-          <p>I have designed, programmed, commissioned, and supported diverse audiovisual systems in Corporate and Higher Ed environments. I've also managed and led a team through a departmental merger. </p>
+          <p>I am an AV Engineer with the goal to develop robust, efficient, scalabale, and maintainable software for diverse applications, to better improve User Experience.</p>
 
           <p> I hold a Mexican and US dual citizenship.</p>
         </div>
@@ -28,11 +28,12 @@ export class IntroComponent extends HTMLElement {
         </div>
 
         <div class="intro-text">
-          <p>I have been involved in the deveolpment and
-          maintentance of commercial, corporate and higher
-          education audiovisual projects, such as audio and
-          video distribution, videoconferencing, amongst
-          others.
+          <p>
+            I have been involved in the design, programming, commissioning and maintentance of commercial, corporate and higher education audiovisual projects, such as audio and video distribution, videoconferencing, amongst others. 
+          </p>  
+          
+          <p>
+            I've also managed and led a team through a departmental merger. 
           </p>
         </div>
 
@@ -49,14 +50,6 @@ export class IntroComponent extends HTMLElement {
           <a href="#portfolio" class="button">Learn More</a>
         </div>
       </div>
-
-
-
-
-
-
-
-       
     `;
   }
 }

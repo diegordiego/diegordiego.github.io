@@ -7,48 +7,49 @@ export class EducationComponent extends HTMLElement {
         <!-- Virginia Tech -->
         <section class="education-item">
           <!-- Image Virginia Tech Logo-->
+
           <img src="images/logos/Vertical_VT_Full_Color_RGB-InnovationCampus_crop.png"
-              class="" alt="">
+              class="" alt="Virginia Tech Innovation Campus' logo">
+
 
           <!-- Text Virginia Tech Education-->
-          <div>
+          <section>
             <p>
-              Actively working in 2022 towrads completing a Master
-              of Engineering in Computer Science, with
-              a concentration in Software Engineering, at Virginia
-              Tech's Innovation Campus.
+              I'm actively working in 2024 towrads completing a Masters
+              of Engineering in Computer Science, with a concentration in Software Engineering, at Virginia Tech's Innovation Campus.
             </p>
 
-            <!-- TODO -->
-            <p>Echar más choro</p>
-          </div>
+            <p>During my time here, I've worked in team projects, such as the devlopment of a javascript videogame, where my focus was on menu design and functionality. Or the implementation of three different Machine Learning models to classify a set of 100 songs, based on The Echo Nest’s dataset, to classify each song’s genre using ML, and using Spotify’s Web API to get each song’s features.</p>
+
+            <p>I have also worked on individual projects where I've designed and developed an e-commerce web application, with responsive design, HTTP-requests, front and back-end validation, and database integration. And I have also developed an Android app that allowed for various user interactions, loading images seamlessly, and displaying them without the need to leave the app.</p>
+          </section>
         </section>
 
         <!-- Tec de Monterrey -->
         <section class="education-item">
           <!-- Image ITESM Logo-->
           <img src="images/logos/tec-de-monterrey-logo.png"
-              class="" alt="">
+              class="" alt="Tecnologico de Monterrey's logo">
 
           <!-- Text ITESM Education -->
           <div>
             <p>
-              Received BS. in Mechatronics Engineering from the
-              Monterrey Institute of Technology and
-              Higher Education (ITESM), Querétaro Campus, México,
-              with and equivalent GPA of 3.7.
+              I received BS. in Mechatronics Engineering from the
+              Monterrey Institute of Technology and Higher Education (ITESM), Querétaro Campus, México, with and equivalent GPA of 3.7.
+            </p>
+
+            <p>
+              There, I worked on projects that covered subjects of Electronics, Control Theory, Mechanics of Materials, Robotics, PLCs, amongst others. I also learned how to work with Solidworks, a 3D CAD design software, which allowed me to translate those skills to work with AutoCAD.
             </p>
 
             <p>
               The ITESM is ranked among the top 200 Universities
-              in the world, according to the
+              in the world, and #2 in México, according to the
               <a href="https://www.topuniversities.com/university-rankings/world-university-rankings/2023"
-                class="" target="_blank">
-              World University Rankings® 2023.</a>
+                class="" target="_blank">World University Rankings® 2023</a>.
             </p>
 
-            <!-- TODO -->
-            <p>Echar más choro</p>
+            <p>During my time in this university, I was a member of the Track & Field team, with which I reached regionals.</p>
           </div>  
         </section>
       </section>

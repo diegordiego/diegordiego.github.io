@@ -88,6 +88,11 @@ h4 {
   font-size: 2rem;
 }
 
+h5 {
+  font-weight: normal;
+  font-size: 1.7rem;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -103,13 +108,12 @@ h4 {
 .button {
   background-color: var(--bg-light);
   border-radius: 5px;
-  /* border: solid var(--bg-light) 2px; */
   color: var(--gray-blue);
   padding: 0.8rem;
   text-decoration: none;
   font-weight: 500;
 }
 
-.button:hover {
+/* .button:hover {
   background-color:  var(--light-blue);
-}
+} */

@@ -76,13 +76,17 @@ ul {
 }
 
 .education-item {
-  display: flex;
-  flex-flow: row;
-  column-gap: 2rem;
   margin-top: 2rem;
+  /* height: fit-content; */
 }
 
 .education-item img {
-  max-width: 410px;
-  width: 33vw;
+  max-width: 350px;
+  height: 100%;
+  margin-right: 1rem;
+  float: left;
+}
+
+.education-item p {
+  margin-top: 0;
 }

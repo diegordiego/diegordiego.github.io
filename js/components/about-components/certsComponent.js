@@ -20,11 +20,10 @@ export class CertsComponent extends HTMLElement {
             <ul class="">
               <li>AVIXA CTS</li>
               <li>Crestron Intermediate System Programming (P201)</li>
-              <li>Biamp TesiraForté</li>
-              <li>Dante Lv2</li>
               <li>Extron Certified Control Professional</li>
               <li>QSys Level 1 Training</li>
-              <li>Kramer Control System Designer</li>
+              <li>Dante Lv2</li>
+              <li>Biamp TesiraForté</li>
               <li>Bose ControlSpace System Design Lv2</li>
               <li>Shure Integrated Systems Certification Lv2</li>
             </ul>
@@ -48,6 +47,10 @@ export class CertsComponent extends HTMLElement {
 
               <div class="card">
                 <img src="images/certifications/Q-SYS Training-badges_Level1-large.png" class="" alt="">
+              </div>
+
+              <div class="card">
+                <img src="images/certifications/dante-level2.png" class="" alt="">
               </div>
 
               <div class="card">

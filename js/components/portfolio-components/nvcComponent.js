@@ -12,7 +12,7 @@ export class nvcComponent extends HTMLElement {
 
 
           <section class="portfolio-text">
-            <h4 class="">Responsibilities included:</h4>
+            <h5 class="">Responsibilities included:</h5>
             <ul class="">
               <li>
                   <p>Commissioning the audio for 9 classrooms to allow for videoconferencing and sound reinforcement in the room, while avoiding any unwanted feedback, artifacts and echoes.</p>
