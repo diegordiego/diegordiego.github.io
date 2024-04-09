@@ -5,7 +5,7 @@ export class CertsComponent extends HTMLElement {
         <div class="certs-text">
           <h3 id="certs-title">Certifications</h3>
 
-          <h4 id="certs-extra-title">Some certifications worth noting:</h4>
+          <h4 id="certs-extra-title">Worth noting:</h4>
 
 
           <p id="certs-description">With the support of my employers and my drive to learn more, I have been able to acquire knowledge and tools to help me understand more and work better.</p>

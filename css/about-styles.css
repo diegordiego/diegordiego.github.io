@@ -5,9 +5,16 @@
   grid-template-rows: 50% 50%;
   column-gap: 2rem;
   margin-top: 5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   align-items: end;
   justify-content: center;
+}
+
+/* Mozilla Firefox specific */
+@-moz-document url-prefix() {
+  .certs-text {
+    margin-bottom: 2rem;
+  }
 }
 
 .certs-description {
@@ -20,7 +27,16 @@
 
 .certs-text h4 {
   font-size: 2.5rem;
+  transform: translateY(-5px);
   font-weight: lighter;
+}
+
+.certs-text p {
+  align-self: self-start;
+}
+
+.certs-text ul {
+  align-self: self-start;
 }
 
 ul {
@@ -34,6 +50,7 @@ ul {
   height: 200px;
   position: relative;
   overflow-x: clip;
+  border-radius: 25px;
 }
 
 .scroll-container:hover {
@@ -125,12 +142,12 @@ ul {
   }
 
   .education-item {
-    display: flex; 
+    display: flex;
     flex-flow: column;
     align-items: center;
   }
 
-  .education-item div{
+  .education-item div {
     margin-top: 1rem;
   }
 
