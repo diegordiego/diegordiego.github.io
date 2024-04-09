@@ -9,11 +9,11 @@
   max-width: 90%;
   column-gap: 1rem;
   padding-bottom: 5rem;
-  
-  grid-template-areas: 
-  "header header header"
-  "main main main"
-  "footer footer footer";
+
+  grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
 
   grid-template-columns: repeat(3, 33%);
 }
@@ -37,6 +37,7 @@
 }
 
 .first-item {
+  padding-left: 0;
   border: transparent;
 }
 
@@ -53,7 +54,7 @@
   padding-right: 1rem;
 }
 
-.intro-item-link a{
+.intro-item-link a {
   display: inline-block;
   width: 30%;
   text-align: center;
@@ -66,7 +67,7 @@
   margin-right: auto;
 }
 
-.featured h4 {
+home-component h4 {
   font-weight: lighter;
   font-size: 3rem;
 }
@@ -82,7 +83,6 @@
   flex-flow: row;
   column-gap: 2rem;
   margin-top: 1rem;
-  
 }
 
 .featured-image {
@@ -99,4 +99,92 @@
 
 .featured-contents p {
   margin-top: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .introduction h4 {
+    font-size: 2.5rem;
+  }
+  .featured-contents {
+    display: inline;
+  }
+
+  .featured-title {
+    margin-bottom: 1rem;
+  }
+
+  .featured-image {
+    float: left;
+    width: 60%;
+    margin-right: 1rem;
+  }
+
+  .featured-title {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  home-component h3,
+  home-component h4 {
+    font-size: 2.5rem;
+  }
+
+  .introduction {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .intro-title,
+  .intro-text {
+    border: transparent;
+  }
+
+  .introduction #about-title,
+  .introduction #about-text,
+  .introduction #about-button {
+    order: 1;
+  }
+
+  .introduction #education-title,
+  .introduction #education-text,
+  .introduction #education-button {
+    order: 2;
+  }
+
+  .introduction #experience-title,
+  .introduction #experience-text,
+  .introduction #experience-button {
+    order: 3;
+  }
+
+  .intro-button {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .featured {
+    margin-top: 0;
+  }
+  .featured-title {
+    align-items: center;
+  }
+
+  .featured-image {
+    float: none;
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
 }

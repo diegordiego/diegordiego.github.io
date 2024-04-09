@@ -13,13 +13,13 @@ export class EducationComponent extends HTMLElement {
 
 
           <!-- Text Virginia Tech Education-->
-          <section>
+          <section class="education-item">
             <p>
-              I'm actively working in 2024 towrads completing a Masters
+              I'm actively working in 2024 towards completing a Masters
               of Engineering in Computer Science, with a concentration in Software Engineering, at Virginia Tech's Innovation Campus.
             </p>
 
-            <p>During my time here, I've worked in team projects, such as the devlopment of a javascript videogame, where my focus was on menu design and functionality. Or the implementation of three different Machine Learning models to classify a set of 100 songs, based on The Echo Nest’s dataset, to classify each song’s genre using ML, and using Spotify’s Web API to get each song’s features.</p>
+            <p>During my time here, I've worked in team projects, such as the development of a javascript video game, where my focus was on menu design and functionality. Or the implementation of three different Machine Learning models to classify a set of 100 songs, based on The Echo Nest’s dataset, to classify each song’s genre using ML, and using Spotify’s Web API to get each song’s features.</p>
 
             <p>I have also worked on individual projects where I've designed and developed an e-commerce web application, with responsive design, HTTP-requests, front and back-end validation, and database integration. And I have also developed an Android app that allowed for various user interactions, loading images seamlessly, and displaying them without the need to leave the app.</p>
           </section>

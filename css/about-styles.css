@@ -14,15 +14,11 @@
   border-radius: 0px;
 }
 
-.certs-list li {
-  list-style-type: none;
-}
-
 .certs-about {
   align-self: start;
 }
 
-h4 {
+.certs-text h4 {
   font-size: 2.5rem;
   font-weight: lighter;
 }
@@ -76,8 +72,8 @@ ul {
 }
 
 .education-item {
-  margin-top: 2rem;
-  /* height: fit-content; */
+  margin-top: 1rem;
+  margin-bottom: 4rem;
 }
 
 .education-item img {
@@ -89,4 +85,58 @@ ul {
 
 .education-item p {
   margin-top: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .certs {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .certs-text {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+  }
+
+  #certs-title,
+  #certs-description {
+    order: 1;
+  }
+
+  #certs-extra-title,
+  #certs-list {
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .title h1 {
+    font-size: 3rem;
+  }
+
+  .certs-text h3 {
+    font-size: 3em;
+  }
+
+  .certs-text h4 {
+    font-size: 2em;
+  }
+
+  .education-item img {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .education-item p {
+    margin-top: 1rem;
+  }
+
+  /* TODO: Make scroll vertical */
+  /* .cards {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, auto);
+  } */
 }

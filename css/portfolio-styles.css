@@ -7,6 +7,10 @@ h4 {
   display: inline;
 }
 
+.portfolio-element h4 {
+  font-weight: lighter;
+}
+
 h5 {
   font-weight: lighter;
 }
@@ -27,4 +31,16 @@ h5 {
 
 .portfolio-image-and-text {
   margin-top: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .portfolio-element h4 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .portfolio-element h3 {
+    font-size: 3rem;
+  }
 }

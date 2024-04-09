@@ -27,3 +27,21 @@ nav a:hover {
   border-radius: 10px;
   border: solid var(--gray-blue) 2px;
 }
+
+@media screen and (max-width: 1200px) {
+  nav {
+    border-radius: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  nav {
+    /* width: auto; */
+    justify-content: center;
+  }
+
+  nav a {
+    /* float: left; */
+    font-size: 1rem;
+  }
+}

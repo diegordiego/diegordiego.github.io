@@ -3,31 +3,23 @@ export class CertsComponent extends HTMLElement {
     this.innerHTML = `
       <section class="certs">
         <div class="certs-text">
-          <div class="certs-description">
-            <h3 class="">Certifications</h3>
-          </div>
+          <h3 id="certs-title">Certifications</h3>
 
-          <div class="certs-list">
-            <h4>Some certifications worth noting:</h4>
-          </div>
+          <h4 id="certs-extra-title">Some certifications worth noting:</h4>
 
 
-          <div class="certs-about">
-            <p>With the support of my employers and my drive to learn more, I have been able to acquire knowledge and tools to help me understand more and work better.</p>
-          </div>
+          <p id="certs-description">With the support of my employers and my drive to learn more, I have been able to acquire knowledge and tools to help me understand more and work better.</p>
 
-          <div>
-            <ul class="">
-              <li>AVIXA CTS</li>
-              <li>Crestron Intermediate System Programming (P201)</li>
-              <li>Extron Certified Control Professional</li>
-              <li>QSys Level 1 Training</li>
-              <li>Dante Lv2</li>
-              <li>Biamp TesiraForté</li>
-              <li>Bose ControlSpace System Design Lv2</li>
-              <li>Shure Integrated Systems Certification Lv2</li>
-            </ul>
-          </div>
+          <ul id="certs-list">
+            <li>AVIXA CTS</li>
+            <li>Crestron Intermediate System Programming (P201)</li>
+            <li>Extron Certified Control Professional</li>
+            <li>QSys Level 1 Training</li>
+            <li>Dante Lv2</li>
+            <li>Biamp TesiraForté</li>
+            <li>Bose ControlSpace System Design Lv2</li>
+            <li>Shure Integrated Systems Certification Lv2</li>
+          </ul>
         </div>
 
           <!-- Cert images -->
@@ -94,16 +86,38 @@ export class CertsComponent extends HTMLElement {
     });
 
     slider.addEventListener("mousemove", (e) => {
+      console.log(e.offsetX);
       if (!isPressed) return;
       e.preventDefault();
       cards.style.left = `${e.offsetX - cursorX}px`;
       boundSlides();
     });
 
+    slider.addEventListener("touchstart", (e) => {
+      isPressed = true;
+      const touch = e.touches[0]; // Get the first touch
+      cursorX = touch.clientX - cards.offsetLeft; // Adjust cursor position
+      slider.style.cursor = "grabbing";
+    });
+
+    slider.addEventListener("touchmove", (e) => {
+      if (!isPressed) return;
+      const touch = e.touches[0]; // Get the first touch
+      const offsetX = touch.clientX - cursorX; // Calculate offset
+      e.preventDefault();
+      cards.style.left = `${offsetX}px`; // Apply offset to move the cards
+      boundSlides();
+    });
+
+    slider.addEventListener("touchend", (e) => {
+      isPressed = false;
+      slider.style.cursor = "grab";
+    });
+
     function boundSlides() {
       const containerRect = slider.getBoundingClientRect();
       const cardsRect = cards.getBoundingClientRect();
-      console.log(cardsRect);
+
       if (parseInt(cards.style.left) > 0) {
         cards.style.left = 0;
       } else if (cardsRect.right < containerRect.right) {

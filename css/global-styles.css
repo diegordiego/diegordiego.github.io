@@ -12,13 +12,15 @@
   --bg-dark: #444444;
   --light-gray: rgb(182, 182, 182);
   --section-margin: 5rem;
+
+  --big-screen: 1200px;
+  --small-screen: 750px;
 }
 
 html {
   background-color: var(--bg-dark);
   color: whitesmoke;
   font-family: "Roboto", "sans-serif";
-  max-width: 1300px;
   margin: auto;
 }
 
@@ -80,7 +82,7 @@ h2 {
 
 h3 {
   font-weight: normal;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 h4 {
@@ -99,6 +101,7 @@ h5 {
   left: 50%;
   transform: translateX(-50%);
   color: var(--light-gray);
+  text-align: center;
 }
 
 .footer p {
@@ -114,6 +117,17 @@ h5 {
   font-weight: 500;
 }
 
-/* .button:hover {
-  background-color:  var(--light-blue);
-} */
+@media screen and (max-width: 1200px) {
+  body {
+    margin: 0;
+  }
+  .title {
+    border-radius: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .title {
+    align-items: center;
+  }
+}
