@@ -124,14 +124,20 @@ ul {
     font-size: 2em;
   }
 
-  .education-item img {
-    width: 100%;
-    display: block;
-    margin-bottom: 1rem;
+  .education-item {
+    display: flex; 
+    flex-flow: column;
+    align-items: center;
   }
 
-  .education-item p {
+  .education-item div{
     margin-top: 1rem;
+  }
+
+  .education-item img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
   }
 
   /* TODO: Make scroll vertical */
