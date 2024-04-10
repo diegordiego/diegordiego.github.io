@@ -34,7 +34,7 @@ export class EducationComponent extends HTMLElement {
           <!-- Text ITESM Education -->
           <div>
             <p>
-              I graduated with a Bachelor of Science. in Mechatronics Engineering from the Monterrey Institute of Technology and Higher Education (ITESM), Querétaro Campus, México, with and equivalent GPA of 3.7.
+              I graduated with a Bachelor of Science in Mechatronics Engineering from the Monterrey Institute of Technology and Higher Education (ITESM), Querétaro Campus, México, with and equivalent GPA of 3.7.
             </p>
 
             <p>
