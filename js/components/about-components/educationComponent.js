@@ -38,7 +38,7 @@ export class EducationComponent extends HTMLElement {
             </p>
 
             <p>
-              There, I worked on projects that covered subjects of Electronics, Control Theory, Mechanics of Materials, Robotics, PLCs, amongst others. I also learned how to work with Solidworks, a 3D CAD design software, which allowed me to translate those skills to work with AutoCAD.
+              There, I worked on projects that covered subjects of Electronics, Control Theory, Mechanics of Materials, Robotics, PLCs, amongst others. I also learned how to work with SolidWorks, a 3D CAD design software, which allowed me to translate those skills to work with AutoCAD.
             </p>
 
             <p>
