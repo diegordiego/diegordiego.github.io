@@ -26,36 +26,36 @@ export class CertsComponent extends HTMLElement {
           <div class="scroll-container">
             <div class="cards">
               <div class="card">
-                <img src="images/certifications/certified-technology-specialist.png" class="" alt="">
+                <img src="images/certifications/certified-technology-specialist.png" class="" alt="AVIXA CTS certification badge">
               </div>
 
               <div class="card">
-                <img src="images/certifications/CTI.png" class="" alt="">
+                <img src="images/certifications/CTI.png" class="" alt="Crestron  certification badge">
               </div>
 
               <div class="card">
-                <img src="images/certifications/extron-certified-professional-300x153.png" class="" alt="">
+                <img src="images/certifications/extron-certified-professional-300x153.png" class="" alt="Extron  certification badge">
               </div>
 
               <div class="card">
-                <img src="images/certifications/Q-SYS Training-badges_Level1-large.png" class="" alt="">
+                <img src="images/certifications/Q-SYS Training-badges_Level1-large.png" class="" alt="Q-sys certification badge">
               </div>
 
               <div class="card">
-                <img src="images/certifications/dante-level2.png" class="" alt="">
+                <img src="images/certifications/dante-level2.png" class="" alt="Dante certification badge">
               </div>
 
               <div class="card">
-                <img src="images/certifications/boqpeupiuaa6bji.jpg" class="" alt="">
+                <img src="images/certifications/boqpeupiuaa6bji.jpg" class="" alt="Biamp certification badge">
               </div>
                 
               <div class="card">
                 <img src="images/certifications/bose-mobile-logo.png"
-                class="" alt="">
+                class="" alt="Bose certification badge">
               </div>
 
               <div class="card">
-                <img src="images/certifications/content-hero-1920x1800-support-sai_orig.jpg" class="" alt="">
+                <img src="images/certifications/content-hero-1920x1800-support-sai_orig.jpg" class="" alt="Shure certification badge">
               </div>
             </div>
           </div>

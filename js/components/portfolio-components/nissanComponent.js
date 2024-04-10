@@ -7,7 +7,7 @@ export class nissanComponent extends HTMLElement {
 
         <section class="portfolio-image-and-text">
           <section class="portfolio-image">
-            <img src="images/Nissan-CrestronGUI.png" class="" alt="">
+            <img src="images/Nissan-CrestronGUI.png" class="" alt="Crestron GUI">
           </section>
 
 

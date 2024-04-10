@@ -7,7 +7,7 @@ export class nvcComponent extends HTMLElement {
 
         <section class="portfolio-image-and-text">
           <section class="portfolio-image">
-            <img src="images/nvc_214_1.jpg" class="" alt="">
+            <img src="images/nvc_214_1.jpg" class="" alt="A picture of a classroom">
           </section>
 
 

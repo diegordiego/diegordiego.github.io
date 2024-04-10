@@ -7,7 +7,7 @@ export class alpuraComponent extends HTMLElement {
 
         <section class="portfolio-image-and-text">
           <section class="portfolio-image">
-            <img src="images/Alpura-CouncilRoom-SignalFlowDiagram.png" class="" alt="">
+            <img src="images/Alpura-CouncilRoom-SignalFlowDiagram.png" class="" alt="Signal Flow diagram">
           </section>
 
 
