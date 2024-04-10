@@ -1,7 +1,7 @@
 export class alpuraComponent extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <section class="portfolio-element">
+      <div class="portfolio-element">
         <h3 class="">Alpura:&nbsp</h3>
         <h4>Council Room</h4>
 
@@ -10,9 +10,9 @@ export class alpuraComponent extends HTMLElement {
             <img src="images/Alpura-CouncilRoom-SignalFlowDiagram.png" class="" alt="">
           </section>
 
-          <h5 class="">Responsibilities included:</h5>
 
           <section class="portfolio-text">
+            <h5 class="">Responsibilities included:</h5>
             <ul class="">
               <li>
                   <p>Designing, engineering, creation of BOM,
@@ -35,7 +35,7 @@ export class alpuraComponent extends HTMLElement {
             </ul>
           </section>
         </section>
-      </section>
+      </div>
     `;
   }
 }

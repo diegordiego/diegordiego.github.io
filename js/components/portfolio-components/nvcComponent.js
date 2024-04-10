@@ -1,7 +1,7 @@
 export class nvcComponent extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <section class="portfolio-element">
+      <div class="portfolio-element">
         <h3 class="">Virginia Tech:&nbsp</h3>
         <h4>Northern Virginia Center</h4>
 
@@ -32,7 +32,7 @@ export class nvcComponent extends HTMLElement {
             </ul>
           </section>
         </section>
-      </section>
+      </div>
     `;
   }
 }

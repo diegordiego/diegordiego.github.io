@@ -22,20 +22,31 @@ h5 {
   margin-top: 2rem;
 }
 
-.portfolio-element img {
-  display: inline;
-  max-width: 60%;
-  margin-right: 2rem;
-  float: left;
+.portfolio-image {
+  flex: 3;
+}
+
+.portfolio-image img {
+  max-width: 100%;
+}
+
+.portfolio-text {
+  flex: 2;
 }
 
 .portfolio-image-and-text {
   margin-top: 1rem;
+  display: flex;
+  column-gap: 1rem
 }
 
 @media screen and (max-width: 1200px) {
   .portfolio-element h4 {
     display: block;
+  }
+
+  .portfolio-image-and-text {
+    flex-flow: column;
   }
 }
 

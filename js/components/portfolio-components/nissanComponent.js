@@ -1,7 +1,7 @@
 export class nissanComponent extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <section class="portfolio-element">
+      <div class="portfolio-element">
         <h3 class="">Nissan:&nbsp</h3>
         <h4>Mexico HQ</h4>
 
@@ -10,9 +10,9 @@ export class nissanComponent extends HTMLElement {
             <img src="images/Nissan-CrestronGUI.png" class="" alt="">
           </section>
 
-          <h5 class="">Responsibilities included:</h5>
 
           <section class="portfolio-text">
+            <h5 class="">Responsibilities included:</h5>
             <ul class="">
               <li>
                   <p>Commissioning close to 30 Executive
@@ -36,7 +36,7 @@ export class nissanComponent extends HTMLElement {
             </ul>
           </section>
         </section>
-      </section>
+      </div>
     `;
   }
 }
