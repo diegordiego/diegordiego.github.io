@@ -1,7 +1,7 @@
 export class nissanComponent extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <div class="portfolio-element">
+      <div class="portfolio-element last-portfolio-item">
         <h3 class="">Nissan:&nbsp</h3>
         <h4>Mexico HQ</h4>
 

@@ -28,6 +28,18 @@ nav a:hover {
   border: solid var(--gray-blue) 2px;
 }
 
+@media screen and (min-width: 3200px) {
+  nav {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 2200px) and (max-width: 3199px) {
+  nav {
+    font-size: 2rem;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   nav {
     border-radius: 0;
