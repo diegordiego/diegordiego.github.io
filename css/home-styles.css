@@ -144,6 +144,7 @@ home-component h4 {
     flex-flow: column;
     text-align: center;
     padding-bottom: 0;
+    width: 100%;
   }
 
   .intro-title,
@@ -179,6 +180,7 @@ home-component h4 {
   }
   .featured-title {
     align-items: center;
+    text-align: center;
   }
 
   .featured-image {

@@ -134,6 +134,10 @@ ul {
     font-size: 3rem;
   }
 
+  .certs {
+    width: 100%;
+  }
+
   .certs-text h3 {
     font-size: 3em;
   }
