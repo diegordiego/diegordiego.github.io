@@ -16,13 +16,13 @@ export class IntroComponent extends HTMLElement {
 
 
         <div class="intro-text first-item" id="about-text">
-          <p>I am an AV Engineer with the goal to develop robust, efficient, scalable, and maintainable software for diverse applications, to better improve User Experience.</p>
+          <p>I am an AV Engineer with the goal to develop robust, efficient, scalable, and maintainable software for diverse applications, to better improve user experience.</p>
 
           <p> I hold a Mexican and US dual citizenship.</p>
         </div>
 
         <div class="intro-text" id="education-text">
-          <p>BS. Mechatronics Engineer and future MEng. in Computer Science, with a concentration in Software Engineering.</p>
+          <p>Bachelor of Science in Mechatronics Engineering and future Master of Engineering in Computer Science, with a concentration in Software Engineering.</p>
 
           <p>I currently hold a CTS certification and am pursuing a master’s degree in computer science.</p>
         </div>
